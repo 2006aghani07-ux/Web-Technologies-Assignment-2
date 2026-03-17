@@ -41,5 +41,12 @@ Integrating search and category filtering.
 The Recipe App demonstrates how to build a practical, interactive, and user-friendly web application from scratch.
 
 Screenshots:
+![Screenshot](main.png)
+![Screenshot](breakfast.png)
+![Screenshot](lunch.png)
+![Screenshot](dessert.png)
+![Screenshot](dinner.png)
+![Screenshot](favourites.png)
+
 
 
