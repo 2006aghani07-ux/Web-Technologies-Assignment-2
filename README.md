@@ -39,3 +39,7 @@ Implementing dynamic DOM manipulation.
 Designing responsive layouts.
 Integrating search and category filtering.
 The Recipe App demonstrates how to build a practical, interactive, and user-friendly web application from scratch.
+
+Screenshots:
+
+
