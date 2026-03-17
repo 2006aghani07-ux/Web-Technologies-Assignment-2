@@ -1,0 +1,181 @@
+/* ------------------------ */
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e0f7f1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #1b1b1b;
+    color: #f0f0f0;
+}
+
+/* ------------------------ */
+/* Header */
+header {
+    background: linear-gradient(90deg, #2ca58d, #3fc0a6);
+    color: white;
+    padding: 25px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header button {
+    margin-top: 15px;
+}
+
+/* ------------------------ */
+/* Navigation */
+nav {
+    background-color: #3fc0a6;
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.1);
+}
+
+/* ------------------------ */
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2ca58d;
+}
+
+/* ------------------------ */
+/* Inputs and Buttons */
+input[type="text"] {
+    padding: 12px 15px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2ca58d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #3fc0a6;
+    transform: scale(1.05);
+}
+
+/* ------------------------ */
+/* Recipe Cards */
+.recipe-card, .favorite-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover, .favorite-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* ------------------------ */
+/* Image Styling (FIXED) */
+.images-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.images-container img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.images-container img:hover {
+    transform: scale(1.08);
+}
+
+/* ------------------------ */
+/* Collapsible Instructions */
+.instructions {
+    display: none;
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Favorites Card */
+.favorite-card {
+    background: #fff8dc;
+}
+
+/* ------------------------ */
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .images-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ------------------------ */
+/* Footer */
+footer {
+    background: #2ca58d;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+}

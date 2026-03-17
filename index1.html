@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Finder</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>🍴 Delicious Recipes Finder</h1>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#searchSection">Home</a></li>
+            <li><a href="#recipeResults">Recipes</a></li>
+            <li><a href="#favoritesSection">Favorites</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Panel -->
+    <section id="searchSection">
+        <h2>Search Recipes</h2>
+        <input type="text" id="ingredientInput" placeholder="Enter ingredient...">
+        <div id="categoryFilters">
+            <label><input type="checkbox" value="Breakfast"> Breakfast</label>
+            <label><input type="checkbox" value="Lunch"> Lunch</label>
+             <label><input type="checkbox" value="Dinner"> Dinner</label>
+            <label><input type="checkbox" value="Dessert"> Dessert</label>
+        </div>
+        <button id="searchBtn">Search</button>
+        <p id="searchMessage"></p>
+    </section>
+
+    <!-- Recipe Results Section -->
+    <section id="recipeResults">
+        <h2>Recipe Results</h2>
+        <div id="recipesContainer"></div>
+    </section>
+
+    <!-- Favorites Section -->
+    <section id="favoritesSection">
+        <h2>Favorites</h2>
+        <div id="favoritesContainer"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Interactive Recipe Finder | Contact: info@recipefinder.com</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
