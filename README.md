@@ -1,6 +1,6 @@
 # WEB TECHNOLOGIES ASSIGNMENT 02
 
-# Recipe App Assignment 
+# Recipe App 
 
 # PREPARED BY: *ABDUL GHANI* *2502129*
 
